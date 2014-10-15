@@ -22,12 +22,15 @@ have a further opportunity to refactor and clean up. Current benchmarks:
 
 -Best Case (already sorted intergers 1-5000)
   0.000000   0.000000   0.000000 (  0.000409)
+
 -Worst Case (reverse sorted intergers 5000-1)
   2.180000   0.000000   2.180000 (  2.183822)
+
 -Random (shuffled intergers 1-5000)
   1.080000   0.000000   1.080000 (  1.083152)
 
 **Merge Sort**
+
 Coming soon.
 
 ## Authors

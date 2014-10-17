@@ -11,9 +11,9 @@ describe 'Custom insertion sorting method' do
   end
 
   it 'should have benchmarks' do
-      @best_case = (1..5_000).to_a
-      @worst_case = @best_case.reverse
-      @random_case = (1..5_000).to_a.shuffle
+    @best_case = (1..5_000).to_a
+    @worst_case = @best_case.reverse
+    @random_case = (1..5_000).to_a.shuffle
 
     puts 'Best Case (already sorted)'
     puts Benchmark.measure { Sort.insertion(@best_case) }
